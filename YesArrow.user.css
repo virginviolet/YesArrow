@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           YesArrow
 @namespace      github.com/virginviolet
-@version        2.1.1
+@version        2.1.2
 @description    DeArrow with arrow yes
 @author         VirginViolet, Jiraph
 @homepageURL    https://github.com/virginviolet/YesArrow
@@ -16,32 +16,6 @@
 
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
-    /* Scale icon */
-    .cbShowOriginal .cbShowOriginalImage {
-        height: 20px !important;
-        max-height: scale !important;
-    }
-
-    /* Lower margin between title and icon */
-    #video-title-link .cbButton {
-        margin-left: 5px !important;
-    }
-
-    /* Lower margin between icon and dot menu */
-    #meta.ytd-rich-grid-media, .metadata.ytd-compact-video-renderer {
-        padding-right: 16px;
-    }
-
-    /* Scale dot menu to align with icon */
-    #button.ytd-menu-renderer yt-icon.ytd-menu-renderer {
-        margin-top: -4px !important;
-        max-height: scale !important;
-    }
-
-    ytd-menu-renderer.ytd-compact-video-renderer {
-        margin-right: -3px;
-    }
-
     /* Scale icon */
     .cbShowOriginal .cbShowOriginalImage {
         height: 20px !important;
