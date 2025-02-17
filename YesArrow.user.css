@@ -6,10 +6,10 @@
 @author         VirginViolet, Jiraph
 @preprocessor   stylus
 @var select arrowDirection "Arrow direction" {
-    'Northeast*': 'northeast',
-    'Northwest': 'northwest'
+    'Northwest*': 'northwest',
+    'Northeast': 'northeast'
 }
-@var range scale "Icon size" [80, 50, 100, 10, '%']
+@var range scale "Icon size" [90, 50, 100, 10, '%']
 
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
