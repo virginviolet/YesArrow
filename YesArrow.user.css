@@ -17,7 +17,7 @@
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
     /* Scale icon */
-    .cbShowOriginal .cbShowOriginalImage, .cbShowOriginal {
+    .cbShowOriginal .cbShowOriginalImage {
         height: 20px !important;
         max-height: scale !important;
     }
@@ -73,3 +73,4 @@
         }
     }
 }
+
