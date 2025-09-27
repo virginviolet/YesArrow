@@ -1,1 +1,1 @@
-[Install](https://github.com/virginviolet/YesArrow/raw/refs/heads/master/YesArrow.user.css)
+[Install](https://raw.githack.com/virginviolet/YesArrow/master/YesArrow.user.css)
