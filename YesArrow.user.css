@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           YesArrow
 @namespace      github.com/virginviolet
-@version        102.1.3
+@version        2.1.4
 @description    DeArrow with arrow yes
 @author         VirginViolet, Jiraph
 @homepageURL    https://github.com/virginviolet/YesArrow
 @supportURL     https://github.com/virginviolet/YesArrow/issues
-@updateURL      https://github.com/virginviolet/YesArrow/raw/refs/heads/master/YesArrow.user.css
+@updateURL      https://raw.githack.com/virginviolet/YesArrow/master/YesArrow.user.css
 @preprocessor   stylus
 @var select arrowDirection "Arrow direction" {
     'Northwest*': 'northwest',
@@ -73,4 +73,3 @@
         }
     }
 }
-
