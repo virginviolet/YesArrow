@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           YesArrow
 @namespace      github.com/virginviolet
-@version        2.1.5
+@version        2.2.0
 @description    DeArrow with arrow yes
 @author         VirginViolet, Jiraph
 @homepageURL    https://github.com/virginviolet/YesArrow
@@ -13,6 +13,7 @@
     'Northeast': 'northeast'
 }
 @var range scale "Icon size" [90, 50, 100, 10, '%']
+@var checkbox hideEllipsisButtonEffects "Disable ellipsis button effects" 1
 
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
@@ -50,6 +51,16 @@
     /* Lower ellipsis menu on channel page */
     .yt-icon-shape.style-scope.yt-icon.ytSpecIconShapeHost {
         margin-top: 4px;
+    }
+
+    if (hideEllipsisButtonEffects) {
+        .yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--enable-backdrop-filter-experiment yt-touch-feedback-shape.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--touch-response {
+            display: none !important;
+        }
+
+        .yt-spec-button-shape-next--size-m {
+            background: none !important;
+        }
     }
 
     .cbShowOriginal .cbShowOriginalImage {
