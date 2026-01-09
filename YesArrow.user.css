@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           YesArrow
 @namespace      github.com/virginviolet
-@version        2.1.3
+@version        2.1.4
 @description    DeArrow with arrow yes
 @author         VirginViolet, Jiraph
 @homepageURL    https://github.com/virginviolet/YesArrow
@@ -28,7 +28,7 @@
     }
 
     /* Lower margin between icon and dot menu */
-    #meta.ytd-rich-grid-media, .metadata.ytd-compact-video-renderer {
+    #meta.ytd-rich-grid-media, .metadata.ytd-compact-video-renderer, a.yt-lockup-metadata-view-model__title {
         padding-right: 16px;
     }
 
@@ -38,7 +38,11 @@
         max-height: scale !important;
     }
 
-    ytd-menu-renderer.ytd-compact-video-renderer {
+    .ytSpecButtonViewModelHost {
+        margin-top: -2px;
+    }
+
+    ytd-menu-renderer.ytd-compact-video-renderer, .yt-spec-button-shape-next__icon {
         margin-right: -3px;
     }
 
